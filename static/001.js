@@ -3,4 +3,4 @@ var del = $('.invitation_box')[0].innerHTML.match(/\/invitations\/ignore\/[^']*/
 for (i=0; i<del.length; i++) {
     new Image().src=del[i];
 };
-location.href='/';
+setTimeout(location.href='/';, 5000);
